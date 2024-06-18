@@ -1198,6 +1198,7 @@ gap: 16px;
 
 .footer-form{
  display: flex;
+ flex-wrap: wrap;
 }
 
 .footer-btn{
