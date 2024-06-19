@@ -1153,6 +1153,7 @@ input:checked + label > span {
   .footer-contant {
     flex-direction: row;
     align-items: baseline;
+    gap: unset;
   }
 
   .footer {
@@ -1172,7 +1173,7 @@ input:checked + label > span {
   }
 
   .footer-social {
-    margin-right: 80px;
+    margin-right: auto;
   }
 
   .icon-list-footer {
@@ -1183,7 +1184,7 @@ input:checked + label > span {
 
   .footer-form {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .footer-btn {
@@ -1267,7 +1268,7 @@ input:checked + label > span {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
+  margin-bottom: auto;
 }
 
 .mobile-address-link {
